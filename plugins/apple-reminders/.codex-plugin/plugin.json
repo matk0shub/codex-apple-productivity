@@ -1,0 +1,45 @@
+{
+  "name": "apple-reminders",
+  "version": "0.2.0",
+  "description": "Use macOS Reminders through local EventKit and AppleScript helpers with triage, recurrence, update, and lifecycle commands.",
+  "author": {
+    "name": "matty",
+    "email": "noreply@localhost",
+    "url": "https://github.com/matk0shub"
+  },
+  "homepage": "https://github.com/matk0shub/codex-apple-productivity/tree/main/plugins/apple-reminders",
+  "repository": "https://github.com/matk0shub/codex-apple-productivity",
+  "license": "MIT",
+  "keywords": [
+    "apple-reminders",
+    "reminders",
+    "macos",
+    "jxa",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Apple Reminders",
+    "shortDescription": "Read, triage, update, and complete Reminders on macOS",
+    "longDescription": "Use a local Apple Reminders skill and helper script to inspect lists, review due, overdue, and alarm-driven reminders, add recurring reminders, update reminder details, move reminders between lists, flag or unflag them, and mark reminders complete from Codex on macOS.",
+    "developerName": "matty",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/matk0shub/codex-apple-productivity/tree/main/plugins/apple-reminders",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "Show my due, overdue, and alarm reminders for today.",
+      "Add a reminder for tomorrow at 9 AM in To Do.",
+      "Move a reminder to another list and mark it done."
+    ],
+    "brandColor": "#F28C28",
+    "composerIcon": "[TODO: ./assets/icon.png]",
+    "logo": "[TODO: ./assets/logo.png]",
+    "screenshots": []
+  }
+}

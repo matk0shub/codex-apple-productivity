@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "apple-productivity": {
+      "command": "/usr/bin/python3",
+      "args": [
+        "__REPO_ROOT__/plugins/apple-productivity-mcp/scripts/apple_productivity_mcp.py"
+      ]
+    }
+  }
+}

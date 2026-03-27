@@ -1,0 +1,22 @@
+{
+  "defaultWriteList": "To Do",
+  "defaultReadLists": [
+    "To Do",
+    "Tarifix",
+    "Dovolená"
+  ],
+  "listAliases": {
+    "todo": "To Do",
+    "to do": "To Do",
+    "inbox": "To Do",
+    "tarifix": "Tarifix",
+    "dovolena": "Dovolená",
+    "dovolená": "Dovolená"
+  },
+  "lockTimeoutSeconds": 12,
+  "commandTimeoutSeconds": 45,
+  "defaultReminderLeadMinutes": 30,
+  "defaultAddPriority": 0,
+  "defaultDueTime": "09:00",
+  "defaultSearchLimit": 200
+}

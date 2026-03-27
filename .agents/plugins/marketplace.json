@@ -1,0 +1,44 @@
+{
+  "name": "codex-apple-productivity",
+  "interface": {
+    "displayName": "Codex Apple Productivity"
+  },
+  "plugins": [
+    {
+      "name": "apple-calendar",
+      "source": {
+        "source": "local",
+        "path": "./plugins/apple-calendar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "apple-reminders",
+      "source": {
+        "source": "local",
+        "path": "./plugins/apple-reminders"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "apple-productivity-mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/apple-productivity-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

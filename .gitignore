@@ -1,0 +1,7 @@
+.DS_Store
+.agents/plugins/marketplace.local.json
+plugins/apple-calendar/.calendar.lock
+plugins/apple-calendar/scripts/.apple_calendar_backend
+plugins/apple-reminders/.reminders.lock
+plugins/apple-reminders/scripts/.apple_reminders_backend
+plugins/apple-productivity-mcp/.apple-productivity-mcp.log

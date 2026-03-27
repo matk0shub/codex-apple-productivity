@@ -1,0 +1,33 @@
+{
+  "defaultWriteCalendar": "Home",
+  "defaultReadCalendars": [
+    "Home",
+    "Work",
+    "Family",
+    "matej.stipcak@gmail.com"
+  ],
+  "ignoredCalendars": [
+    "Formula 1",
+    "FC Barcelona",
+    "Scheduled Reminders",
+    "Birthdays",
+    "České svátky",
+    "Siri Suggestions"
+  ],
+  "calendarAliases": {
+    "home": "Home",
+    "doma": "Home",
+    "work": "Work",
+    "prace": "Work",
+    "family": "Family",
+    "rodina": "Family",
+    "matej": "matej.stipcak@gmail.com",
+    "mail": "matej.stipcak@gmail.com"
+  },
+  "lockTimeoutSeconds": 12,
+  "commandTimeoutSeconds": 20,
+  "perCalendarFailureMode": "skip",
+  "defaultDayStart": "08:00",
+  "defaultDayEnd": "22:00",
+  "defaultSlotMinutes": 30
+}

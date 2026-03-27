@@ -1,0 +1,44 @@
+{
+  "name": "apple-productivity-mcp",
+  "version": "0.1.0",
+  "description": "Local MCP server for Apple Calendar and Reminders on macOS.",
+  "author": {
+    "name": "matty",
+    "email": "noreply@localhost",
+    "url": "https://github.com/matk0shub"
+  },
+  "homepage": "https://github.com/matk0shub/codex-apple-productivity/tree/main/plugins/apple-productivity-mcp",
+  "repository": "https://github.com/matk0shub/codex-apple-productivity",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "apple-calendar",
+    "apple-reminders",
+    "eventkit",
+    "productivity"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Apple Productivity MCP",
+    "shortDescription": "Local MCP tools for Apple Calendar and Reminders",
+    "longDescription": "Expose Apple Calendar and Apple Reminders on macOS through a local stdio MCP server backed by the existing EventKit-based wrappers.",
+    "developerName": "matty",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/matk0shub/codex-apple-productivity/tree/main/plugins/apple-productivity-mcp",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "defaultPrompt": [
+      "List my Apple Calendar events for today.",
+      "Add a reminder for tomorrow morning.",
+      "Find and update a calendar event by title."
+    ],
+    "brandColor": "#4B7BEC",
+    "composerIcon": "[TODO: ./assets/icon.png]",
+    "logo": "[TODO: ./assets/logo.png]",
+    "screenshots": []
+  }
+}
