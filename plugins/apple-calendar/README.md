@@ -1,5 +1,8 @@
 # Apple Calendar Plugin
 
+[![Release](https://img.shields.io/github/v/release/matk0shub/apple-productivity-mcp?display_name=tag)](https://github.com/matk0shub/apple-productivity-mcp/releases/latest)
+[![Repo](https://img.shields.io/badge/repo-apple--productivity--mcp-4B7BEC)](https://github.com/matk0shub/apple-productivity-mcp)
+
 Local Codex plugin for macOS Calendar with a Python CLI wrapper and a Swift/EventKit backend.
 
 ## What It Covers
@@ -80,7 +83,7 @@ Export one day to `.ics`:
 ## Enable In Codex
 
 1. Open this repository in Codex.
-2. Install or expose the local plugin so Codex can see [plugin.json](/Users/matty/Documents/ai_projects/pinescript/plugins/apple-calendar/.codex-plugin/plugin.json).
+2. Install or expose the local plugin so Codex can see `plugins/apple-calendar/.codex-plugin/plugin.json`.
 3. Ensure macOS Calendar access is enabled for the app running Codex.
 4. The plugin now also points at the shared local MCP server via `.mcp.json`.
 5. Start using either:
@@ -93,3 +96,8 @@ This plugin now consumes the shared local MCP server from `mcp/apple-productivit
 
 - you can use the Apple Calendar skill directly in Codex
 - and the same backend is also available as MCP tools without duplicating business logic
+
+## Links
+
+- [Latest release](https://github.com/matk0shub/apple-productivity-mcp/releases/latest)
+- [Repository root](https://github.com/matk0shub/apple-productivity-mcp)

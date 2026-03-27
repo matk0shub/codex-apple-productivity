@@ -1,5 +1,8 @@
 # Apple Productivity MCP Layer
 
+[![Release](https://img.shields.io/github/v/release/matk0shub/apple-productivity-mcp?display_name=tag)](https://github.com/matk0shub/apple-productivity-mcp/releases/latest)
+[![Repo](https://img.shields.io/badge/repo-apple--productivity--mcp-4B7BEC)](https://github.com/matk0shub/apple-productivity-mcp)
+
 Shared local stdio MCP server for Apple Calendar and Apple Reminders on macOS.
 
 ## What This Folder Is

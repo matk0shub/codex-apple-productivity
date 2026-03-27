@@ -1,10 +1,11 @@
-# Codex Apple Productivity
+# Apple Productivity MCP
 
-> Local Apple Calendar + Reminders tooling for Codex on macOS, with a shared MCP layer underneath.
+> Local Apple Calendar + Reminders tooling for macOS, with Codex plugin adapters and a shared MCP layer underneath.
 
 ![macOS](https://img.shields.io/badge/macOS-required-111111)
 ![EventKit](https://img.shields.io/badge/backend-EventKit-0A84FF)
 ![MCP](https://img.shields.io/badge/protocol-MCP-4B7BEC)
+![Release](https://img.shields.io/github/v/release/matk0shub/apple-productivity-mcp?display_name=tag)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## What This Repo Gives You
@@ -33,7 +34,7 @@ flowchart TD
 ## Repo Layout
 
 ```text
-codex-apple-productivity/
+apple-productivity-mcp/
   plugins/
     apple-calendar/          # user-facing Codex plugin
     apple-reminders/         # user-facing Codex plugin
@@ -84,7 +85,7 @@ That separation keeps the repo cleaner:
 | --- | --- |
 | Codex plugin skill | Natural chat-like usage in Codex |
 | CLI wrapper | Scriptable local automation |
-| MCP tools | Reusable integration layer for Codex and future clients |
+| MCP tools | Reusable integration layer for Codex and other MCP-capable agents |
 
 ## Quick Start
 
@@ -101,8 +102,8 @@ That separation keeps the repo cleaner:
 
 4. Open the repo in Codex.
 5. Use:
-   - `plugins/apple-calendar`
-   - `plugins/apple-reminders`
+- `plugins/apple-calendar`
+- `plugins/apple-reminders`
 
 The shared MCP layer will be wired automatically.
 
@@ -145,12 +146,13 @@ Both tests create temporary artifacts and clean them up afterward.
 
 - [Architecture](./docs/ARCHITECTURE.md)
 - [Changelog](./CHANGELOG.md)
+- [Latest Release](https://github.com/matk0shub/apple-productivity-mcp/releases/latest)
 
 ## Notes
 
 - This repo is for macOS.
 - Calendar and Reminders require system permission for the app running Codex.
-- The shared MCP layer is the right foundation if you later want a ChatGPT app or another MCP client.
+- The shared MCP layer is the right foundation if you later want another MCP-capable agent or a future app layer.
 
 ## Release Hygiene
 

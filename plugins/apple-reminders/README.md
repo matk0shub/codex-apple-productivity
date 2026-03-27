@@ -1,5 +1,8 @@
 # Apple Reminders Plugin
 
+[![Release](https://img.shields.io/github/v/release/matk0shub/apple-productivity-mcp?display_name=tag)](https://github.com/matk0shub/apple-productivity-mcp/releases/latest)
+[![Repo](https://img.shields.io/badge/repo-apple--productivity--mcp-4B7BEC)](https://github.com/matk0shub/apple-productivity-mcp)
+
 Local Codex plugin for macOS Reminders with a Python CLI wrapper, a Swift/EventKit backend, and an AppleScript fallback for flagging.
 
 ## What It Covers
@@ -80,7 +83,7 @@ Move and complete:
 ## Enable In Codex
 
 1. Open this repository in Codex.
-2. Install or expose the local plugin so Codex can see [plugin.json](/Users/matty/Documents/ai_projects/pinescript/plugins/apple-reminders/.codex-plugin/plugin.json).
+2. Install or expose the local plugin so Codex can see `plugins/apple-reminders/.codex-plugin/plugin.json`.
 3. Ensure macOS Reminders access is enabled for the app running Codex.
 4. The plugin now also points at the shared local MCP server via `.mcp.json`.
 5. Start using either:
@@ -90,3 +93,8 @@ Move and complete:
 ## MCP Note
 
 This plugin now consumes the shared local MCP server from `mcp/apple-productivity`. That keeps the CLI, plugin skill, and MCP tools on top of one shared backend.
+
+## Links
+
+- [Latest release](https://github.com/matk0shub/apple-productivity-mcp/releases/latest)
+- [Repository root](https://github.com/matk0shub/apple-productivity-mcp)

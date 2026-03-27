@@ -10,7 +10,8 @@ import time
 from pathlib import Path
 
 
-SERVER = Path("/Users/matty/Documents/ai_projects/codex-apple-productivity/mcp/apple-productivity/server/apple_productivity_mcp.py")
+ROOT = Path(__file__).resolve().parent.parent
+SERVER = ROOT / "mcp" / "apple-productivity" / "server" / "apple_productivity_mcp.py"
 
 
 def request(proc: subprocess.Popen, message: dict) -> dict:
